@@ -10,7 +10,14 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
+		<style>
+		@media screen and (max-width: 736px) {
+			.desktop-only-banner {
+				display: none !important;
+			}
+		}
+	</style>
+</head>
 	<body class="is-preload">
 
 		<!-- Header -->
@@ -48,9 +55,11 @@ designed for your workspace.</p>
 
 						<!-- One -->
 							<section id="one">
-								<div class="image main" data-position="center">
-									<img src="images/banner.jpg" alt="" />
-								</div>
+								<div class="desktop-only-banner">
+						<div class="image main" data-position="center">
+							<img src="images/banner.jpg" alt="" />
+						</div>
+					</div>
 								<div class="container">
 									<header class="major">
 										<h2>Premium Headphone Stand</h2>
